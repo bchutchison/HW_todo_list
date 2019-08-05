@@ -10,11 +10,13 @@
   <div id="app">
     <form v-on:submit="saveNewTask">
       <input type="text" v-model="newTask"/>
+      <input type="radio" name="priority" value="High"> High
+      <input type="radio" name="priority" value="Low"> Low
       <button :click="saveNewTask">Save new Task</button>
     </form>
 
     <ul>
-      <li v-for="task in tasks">{{task}}</li>
+      <li v-for="task in tasks">{{task.name}}</li>
     </ul>
 
   </div>
