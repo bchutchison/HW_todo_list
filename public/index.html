@@ -19,12 +19,10 @@
     <ul>
       <li v-for="(task, index) in tasks"
       v-bind:class="task.priority === 'High' ? 'high-priority':'low-priority'">
-        <span>{{task.name}}</span>
+      <span>{{task.name}}</span>
+    </li>
+  </ul>
 
-
-      </li>
-    </ul>
-
-  </div>
+</div>
 </body>
 </html>
