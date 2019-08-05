@@ -1,0 +1,47 @@
+#app {
+
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	margin: 2em 0;
+	padding: 15px;
+	display: flex;
+	justify-content: space-between;
+}
+
+li span {
+	padding: 8px;
+}
+
+li button {
+	background: #f2360c;
+	color: #fff;
+	border: none;
+	padding: 10px;
+	cursor: pointer;
+}
+
+li.low-priority {
+	border: 2px solid #1a681e;
+	color: #1a681e;
+}
+
+li.high-priority {
+	border: 2px solid #f2360c;
+}
+
+input[type="text"] {
+	padding: 10px;
+	width: 50%;
+}
+
+form button {
+	padding: 10px;
+	background: green;
+	cursor: cell;
+	border: 1px solid #000;
+}
